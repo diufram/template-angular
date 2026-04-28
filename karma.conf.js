@@ -18,6 +18,7 @@ module.exports = function (config) {
         base: 'ChromeHeadless',
         flags: [
           '--no-sandbox',
+          '--disable-dev-shm-usage',
           '--disable-gpu',
           '--disable-translate',
           '--disable-extensions'
