@@ -10,7 +10,8 @@
     "test:watch": "ng test --watch --no-progress --browsers=ChromeHeadless"
   },
   "private": true,
-  "dependencies": {
+"dependencies": {
+    "@angular/cli": "^21.2.8",
     "@angular/common": "^21.2.0",
     "@angular/compiler": "^21.2.0",
     "@angular/core": "^21.2.0",
@@ -19,11 +20,10 @@
     "@angular/router": "^21.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "^0.16.1"
+    "zone.js": "~0.16.1"
   },
   "devDependencies": {
     "@angular/build": "^21.2.8",
-    "@angular/cli": "^21.2.8",
     "@angular/compiler-cli": "^21.2.0",
     "@tailwindcss/postcss": "^4.1.12",
     "@types/jasmine": "^5.1.0",
